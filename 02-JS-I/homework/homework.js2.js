@@ -52,7 +52,7 @@ function resta(x, y) {
 function multiplica(x, y) {
   // Multiplica "x" por "y" y devuelve el valor
   // Tu código:
-  returnv= x * y;
+  return= x * y;
 
 
 }
@@ -169,7 +169,8 @@ function esPositivo(numero) {
   //Si el número es negativo, devolver ---> "Es negativo"
   //Si el número es 0, devuelve false
   
-
+  if (numero === 0);
+  return false;
 }
 
 function agregarSimboloExclamacion(str) {
